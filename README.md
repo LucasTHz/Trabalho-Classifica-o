@@ -1,5 +1,5 @@
-# **Implementar os algoritmos de ordenação**
-### **Disciplina de Classificação e pesquisa de dados do curso de Engenharia de Computação CEFET-MG Campus Leopoldina-Minas gerais.**
+# **Implementação dos algoritmos de ordenação**
+### **Disciplina de Classificação e pesquisa de dados do curso de Engenharia de Computação CEFET-MG Campus Leopoldina-Minas Gerais.**
 <br />
 
 Bubble sort, Selection sort, Insertion sort, Quicksort, Mergesort e Heapsort. Criar um relatório contendo:
