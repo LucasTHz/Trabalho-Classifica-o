@@ -67,3 +67,7 @@ No caso do merge sort que sua complexidade é a mesma para todos os casos que é
 
 * **Heap Sort**
 O heap sort tem o mesmo caso do merge sort sua complexidade tambem é O(nlogn) em todos os casos, mas com o fato que suas constantes de proporcionalidade são maiores.
+
+#### Conclusão do trabalho
+
+Após analisarmos os algoritmos, constatamos que para a entrada utilizada obtivemos o melhor tempo utilizando o algoritmo Merge Sort, pois mesmo em seu pior caso ele foi o que teve o menor custo de tempo quando comparado todos os casos com os demais algoritmos. Constatamos também que o pior desempenho em relação ao tempo foi o do algoritmo Bubble Sort, devido ao seu melhor caso ter sido maior que o pior caso de outros algoritmos e ainda ter tipo valores bem semelhantes no vetor aleatório o qual é seu pior caso e no vetor decrescente o, qual teve um custo de tempo bem próximo ao de seu pior caso. Vale ressaltar uma observação que tivemos sobre o QuickSort a qual não conseguimos compreender se foi um erro no nosso algoritmo implementado ou se era de fato o valor que deveria alcançar mesmo que foi a marca de 71,91 quando o rodamos no vetor decrescente.
