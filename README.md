@@ -21,7 +21,8 @@ melhor desempenho frente as características do algoritmo utilizado. A tabela
 também deverá informar tamanho da entrada dos algoritmos (tamanho
 sugerido: 100.000).
 
-## Introdução
+---
+## **Introdução**
 
 1. **Bubble Sort** \
 É um algoritmo de ordenação simples que consiste em comparações em um vetor. Seu funcionamento e conforme o se o valor da posição atual é maior ou menor que o próximo valor na posição seguinte, caso o valor atual seja maior que o seguinte, ocorre a “flutuação” mudança na posição dos dois valores comparados ate chegar ao fim do vetor. Sua complexidade é O(n²) mostrando que não é um algoritmo eficiente.
@@ -37,6 +38,8 @@ Como o “Quick Sort”, o “merge sort” também é um algoritmo de divisão 
 
 6. **Heap Sort** \
 O heap sort utiliza uma estrutura de dados chamada heap para ordenar os elementos a medida que os insere na estrutura. Essa estrutura pode ser vista como uma árvore binaria quase completa. Onde temos pais e filhos, com o primeiro elemento sendo a raiz. Um heap decrescente de tamanho n  é implementado utilizando-se uma árvore binaria quase completa representada sequencialmente, com a característica de que todo nó possui um valor maior ou igual aos valores armazenados em seus filhos, caso estes existam. Sua complexidade é O(nlogn).
+
+---
 
 ## **Discussão sobre os resultados dos testes**
 
@@ -68,6 +71,8 @@ No caso do merge sort que sua complexidade é a mesma para todos os casos que é
 * **Heap Sort**
 O heap sort tem o mesmo caso do merge sort sua complexidade tambem é O(nlogn) em todos os casos, mas com o fato que suas constantes de proporcionalidade são maiores.
 
-#### Conclusão do trabalho
+---
+
+## **Conclusão do trabalho**
 
 Após analisarmos os algoritmos, constatamos que para a entrada utilizada obtivemos o melhor tempo utilizando o algoritmo Merge Sort, pois mesmo em seu pior caso ele foi o que teve o menor custo de tempo quando comparado todos os casos com os demais algoritmos. Constatamos também que o pior desempenho em relação ao tempo foi o do algoritmo Bubble Sort, devido ao seu melhor caso ter sido maior que o pior caso de outros algoritmos e ainda ter tipo valores bem semelhantes no vetor aleatório o qual é seu pior caso e no vetor decrescente o, qual teve um custo de tempo bem próximo ao de seu pior caso. Vale ressaltar uma observação que tivemos sobre o QuickSort a qual não conseguimos compreender se foi um erro no nosso algoritmo implementado ou se era de fato o valor que deveria alcançar mesmo que foi a marca de 71,91 quando o rodamos no vetor decrescente.
